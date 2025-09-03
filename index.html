@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codiiiy's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Codiiiy's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#personalprojects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A little about me: when it comes to coding I love finding challenges. 
+        Throughout my schooling it was always “do this thing that almost any developer has done,” and that isn’t something I enjoy.
+        In my free time I like to work on projects that no one else has tried, even if they seem trivial.
+        My two longest projects are both game related, such as adding joystick and throttle controls with bindings to Space Engineers and creating a zoo feature in RimWorld.<br>
+        Although these projects are not great by any standard, I have barely started and have passion for bigger and better.
+    </p>
+  </section>
+
+  <section id="personalprojects">
+    <h2>Personal Projects</h2>
+    <div class="SEHotasPlugin">
+      <h3>SEHotasPlugin</h3>
+      <p>This plugin for Space Engineers adds functionality for joysticks, throttles, and other devices, with the ability to bind and use multiple devices.. Space Engineers is a spaceship building and operating game that did not originally support using joysticks and throttles to control ships. Adding support for these devices creates an extra layer of fun and immersion. To accomplish this, I had to work within the resources already available in the game, such as SharpDX, to detect devices and read button states. From there, I created bindings and an input handler to route controls to a Harmony patch, which then integrated the controls into the game.</p>
+          <p>Used Technologies: C#, Git</p>
+      <a href="github.com/Codiiiy/SEHotasPlugin"> Github:SEHotasPlugin</a>
+
+    </div>
+    <div class="RimZoo">
+      <h3>RimZoo</h3>
+        <p>This mod for the game RimWorld adds a zoo feature, allowing you to store animals and have guests arrive and pay to see them.
+            Several factors are used to calculate the price.
+            Harmony patches were required to use the existing pen functionality to hold the selected zoo animals.</p>
+            <p>Used Technologies: C#, Git</p>
+      <a href="github.com/Codiiiy/RimZoo"> Github:RimZoo</a>
+    </div>
+    <div class="Website">
+      <h3>This Website</h3>
+        <p>A website to portray some of my projects and capabilites. </p>
+        <p>Used Technologies: HTML, CSS, JavaScript</p>
+    </div>
+    <div class="Unnamedunityproject">
+      <h3>Unfinished Unity Project</h3>
+        <p>This unfinished Unity project is a passive hobby of mine focused on creating a realistic world environment.<br>
+        Current features include a time and day system, weather, a medical system, a ballistics system with in-depth penetration calculations, movement mechanics, and more.<br>
+        It also includes custom models created by me in Blender.</p>
+        <p>Used Technologies: Unity, C#, Blender </p>
+    </div>
+    <div class="Homelab">
+    <h3>Home Lab</h3>
+        <p>My home lab is a side hobby that currently runs TrueNAS with Docker for my game servers, Nginx, and data backup, all configured in RAID.</p>
+        <p>Used Technologies: TrueNAS, Nginx, Docker</p>
+    </div>
+  </section>
+
+    <section id ="UniversityProjects">
+        <h2>University Projects</h2>
+        <div class="2d/3d Game design">
+            <h3>2D/3D Game design</h3>
+            <p>For this project, the goal was to create a 2D game and then build a 3D game based on it. My group and I accomplished this by creating a Temple Run–style game. The game featured an infinite randomized world. The 2D version achieved this using a tile system combined with a chunk system to generate the world ahead of the player. For the 3D version, the same code was adapted and modified to work in a 3D environment.</p>
+        </div>
+    </section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/Codiiiy">My Github</a></p>
+  </section>
+</body>
+</html>
